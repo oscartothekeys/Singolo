@@ -1,0 +1,182 @@
+body {
+    background-color:#f2f2f2;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+
+* {
+    outline: 1px solid green;
+}
+
+
+.header {
+    height: 90px;
+    background-color: #2d303a;
+    border-bottom: 6px solid #323746;
+    
+}
+
+.nav {
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    text-align: left;
+}
+
+.links {
+    width: 420px;
+    float: right;
+    color: #44495b;
+    text-align: right;
+    margin: 40px;
+    font-size:.75em;
+
+}
+
+.links a {
+   color: white;
+   text-decoration: none;
+   padding-left: 10px;
+   padding-right: 10px;
+
+}
+
+.links a:hover {
+    background-color: grey;
+    display: inline-block;
+}
+
+.links a:active {
+    color: #d6645e;
+}
+
+.logo {
+    color: white;
+    width: 250px;
+    float: left;
+    margin: 35px;
+    font-size: 1.5em;
+}
+
+.salmon {
+    color: #d6645e;
+}
+
+@media screen and (max-width:670px) {
+   .header {
+    height: 160px;
+    }
+    
+    .links {
+     margin: 0;
+    }
+    
+}
+
+.banner {
+    background-color: #f06c64;
+    height: 17%;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+
+.banner img {
+    width: 90%;
+}
+
+.services {
+    height: 500px;
+}
+
+.our {
+    text-align: left;
+    font: 2em bold, sans-serif;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.body1 {
+  padding-left: 30px;
+  padding-top: 20px;
+  line-height: 25px;
+}
+
+
+.body2 {
+    font: 1em bold sans-serif;
+    float: left;
+    max-height: 500px;
+}
+
+.principles {
+    padding-top: 20px;
+    height: 500px;
+    padding-left: 60px;
+}
+
+.principle1 {
+    color: red;
+    width: 325px;
+    float:left;
+}
+
+.principle2 {
+    color: green;
+    width: 325px;
+    float:left;
+}
+
+.principle3 {
+    color: blue;
+    width: 325px;
+    float: left;
+}
+
+@media screen and (max-width:980px) {
+ 
+    .principle1 {
+         width: 200px;
+    }
+    
+     .principle2 {
+         width: 200px;
+    }
+    
+     .principle3 {
+         width: 200px;
+    }
+    
+}    
+
+.portfolio {
+    background-color: #2d303a;
+    height: 867px;
+}
+
+.about {
+    height: 735px;
+}
+
+.quote {
+    background-color: #f06c64;
+    height: 655px;
+}
+
+.footer {
+    background-color: #2d303a;
+    height: 75px;
+}
+
+.copyright {
+text-align: left;
+padding: 30px;
+color: #666d89;
+font-size: 0.3em;
+}
+
+.socialmedia {
+    float: right;
+}
